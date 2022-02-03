@@ -54,8 +54,8 @@ while run:
     print('Step =', count)
     count += 1
     if count == range_count:
-        break
         print('STOP', count)
+        break
 
 print('===================================')
 
@@ -74,14 +74,14 @@ for item in range (for_count, range_count):
 # 11.3 Сделать if с условием, если item равен  10, то вывести в консоль (‘Item =’, item).
 # 11.4 Сделать if с условием, если item меньше 4, то вывести в консоль (‘Item <’, item).
 # 11.5 Сделать if с условием, если item больше или равно 27, то вывести в консоль (‘Item >=’, item).
-for item in range(0, 50):
+for item in range(0, 30):
     print('Step =', item)
     if item == 5:
         print('Item =', item)
     elif item == 10:
-        print('Item <', item)
-    elif item < 4:
         print('Item =', item)
+    elif item < 4:
+        print('Item <', item)
     elif item >= 27:
         print('Item >=', item)
 
