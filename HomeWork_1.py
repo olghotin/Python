@@ -25,7 +25,8 @@ perem_list = [123, 456, 789, 'Python']
 # Tuple - это те же списки за одним исключением. Кортежи неизменяемые структуры данных.
 # Так же как списки они могут состоять из элементов разных типов, перечисленных через запятую.
 # Кортежи заключаются в круглые скобки.
-perem_tuple = tuple('hello, world !')
+perem_tuple = ('hello, world !',)
+perem_tuple_2 = tuple('hello, world !')
 
 # 7)Создать переменную типа Set.
 # Set (множество)- это изменяемый неупорядоченный тип данных.
@@ -46,31 +47,51 @@ perem_dict = {'key_1': 'Olga', 'key_2': 34, 'key_3': 'Kontush'}
 print('1) Perem_string =', perem_str)
 print('Type =', type(perem_str))
 
+print('*******************************')
+
 print('2) Perem_integer =', perem_int)
 print('Type =', type(perem_int))
+
+print('*******************************')
 
 print('3) Perem_float =', perem_float)
 print('Type =', type(perem_float))
 
+print('*******************************')
+
 print('4) Perem_bytes =', perem_bytes)
 print('Type =', type(perem_bytes))
+
+print('*******************************')
 
 print('5) Perem_list =', perem_list)
 print('Type =', type(perem_list))
 
+print('*******************************')
+
 print('6) Perem_tuple =', perem_tuple)
 print('Type =', type(perem_tuple))
+print('Perem_tuple =', perem_tuple_2)
+print('Type =', type(perem_tuple_2))
+
+print('*******************************')
 
 print('7) Perem_set =', perem_set)
 print('Type =', type(perem_set))
+
+print('*******************************')
 
 print('8) Perem_frozenset_0 =', perem_frozenset_0)
 print('Type =', type(perem_frozenset_0))
 print('Perem_frozenset_1 =', perem_frozenset_1)
 print('Type =', type(perem_frozenset_1))
 
+print('*******************************')
+
 print('9) Perem_dict =', perem_dict)
 print('Type =', type(perem_dict))
+
+print('*******************************')
 
 #11) Создать 2 переменные String, создать переменную в которой сканкатенируете эти переменные. Вывести в консоль.
 #Конкатенаация — операция склеивания объектов линейной структуры, обычно строк.
@@ -79,8 +100,12 @@ perem_2 = 'by Vadim Ksendzov'
 perem_3 = perem_1 + ' ' + perem_2
 print('11)', perem_3)
 
+print('*******************************')
+
 #12) Вывести в одну строку переменные типа String и Integer используя “,” (Запятую)
 print('12)', perem_str, perem_int)
+
+print('*******************************')
 
 #13) Вывести в одну строку переменные типа String и Integer используя “+” (Плюс)
 print('13) '+ perem_str + ' ' + str(perem_int))
